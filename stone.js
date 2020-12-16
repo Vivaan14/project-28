@@ -10,7 +10,7 @@ class stone{
         this.width = width;
         this.height = height;
         this.body = Bodies.rectangle(this.x,this.y,this.width,this.height,options);
-        this.image = loadImage("Pluckingmangoes/stone.png")
+        this.image = loadImage("stone.png")
         World.add(world,this.body);
         }
         display(){
