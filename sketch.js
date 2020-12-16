@@ -11,7 +11,7 @@ var fruit1;
 var fruit2,fruit3,fruit4,fruit5;
 function preload()
 {
-	boyImage = loadImage("Pluckingmangoes/boy.png");
+	boyImage = loadImage("boy.png");
 }
 
 function setup() {
