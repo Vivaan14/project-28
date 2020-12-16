@@ -8,7 +8,7 @@ class mango {
         this.width = width;
         this.height = height;
         this.body = Bodies.rectangle(this.x,this.y,this.width,this.height,options);
-        this.image = loadImage("Pluckingmangoes/mango.png")
+        this.image = loadImage("mango.png")
         World.add(world,this.body);
         }
         display(){
